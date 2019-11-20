@@ -1,0 +1,122 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>PetShop</title>
+<link rel="icon" href="static/imagenes/Icon.png"/>
+<meta name="description" content="Esta pagina vende articulos para animales varios">
+<link rel="stylesheet" type="text/css" href="static/css/estilos.css">
+<link rel="stylesheet" type="text/css" href="static/css/menu.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+	<header>
+		<div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-list2"></span>Petshop</a>
+		</div>
+		 
+		<nav>
+			<ul>
+				<li><p class="titulo">PetShop</p></li>
+				<li><a href="#"><span class="icon-house"></span>Inicio</a></li>
+				<li><a href="registro/"><span class="icon-suitcase"></span>Registro</a></li>
+				<li><a href="crear_producto/"><span class="icon-rocket"></span>Juguetes</a></li>
+				<li><a href="listar_producto/"><span class="icon-earth"></span>Comida</a></li>
+				<li><a href="facebook.com"><span></span>Contactos</a></li>
+			</ul>
+		</nav>
+	</header>
+<main>
+
+	<div id="contenedor">
+	
+       
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+		  
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+		  
+			<div class="item active">
+				<img src="static/imagenes/comida.jpg" alt="comida" style="width:100%;">
+				
+			</div>
+		  
+			<div class="item">
+				<img src="static/imagenes/comida2.jpg" alt="comida2" style="width:100%;">
+				
+			</div>
+			  
+			<div class="item">
+				<img src="static/imagenes/gatitoc.jpg" alt="gatito" style="width:100%;">
+				
+			</div>
+			
+			</div>
+		  
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+		  
+
+   
+
+   </div>
+   <div id="contenedor2">
+	<section id="intro">
+		<h2>Conoce mas sobre Petshop</h2>
+		<img src="static/imagenes/fotob.jpg" alt="foto perrito" id="fotop"> 
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+			text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
+			survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised 
+			in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+			like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+			scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+			remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+			It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+			It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+	</section>
+	</div>
+
+   <div id="contenedor3">
+	<section id="imagenes">
+	 <h2>Podria interesarte...</h2>
+	 <a href= "#" id="foto1" target="_blank"> <img src= "static/imagenes/3peluches.png" alt="3 peluches"  width="200" height="200"><p>3 lucas</p> </a>
+	 <a href= "#" id="foto2" target="_blank"> <img src= "static/imagenes/1peluche.png" alt="1 peluche" width="200" height="200"><p>1 luca</p> </a>
+	 <a href= "#" id="foto3" target="_blank"> <img src= "static/imagenes/peluchegato.png" alt="peluche ratoncito" width="200" height="200"> <p>3 lucas</p></a>
+	 <a href= "#" id="foto4" target="_blank"> <img src= "static/imagenes/3peluches.png" alt="3 peluches" width="200" height="200"> <p>3 lucas</p></a>
+	</section>
+ 
+	</div>
+
+
+	
+
+</main>
+
+<footer>
+	
+	<p class="copy">PetShop &copy; 2019</p>
+
+</footer>
+<script src="static/js/menu.js"></script>
+</body>
+</html>

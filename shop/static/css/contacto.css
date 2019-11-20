@@ -1,0 +1,35 @@
+
+
+.contactos{
+
+    background-color: rgba(2, 106, 117, 0.863);
+    border: black 5px solid;
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    font-size: 18px;
+    padding-left: 5%;
+    color: white;
+    margin-top: 5%;
+}
+
+.contactos h1{
+    font-weight: bold;
+    color: black;
+
+}
+
+.contactos a{
+    color: black;
+}
+.contactos a:hover{
+    color: rgb(161, 21, 21);
+}
+#fundacion{
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+    border: black 10px solid;
+    margin-top: 5%;
+    cursor: pointer;
+}

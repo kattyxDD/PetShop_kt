@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Listar Producto</title>
+<link rel="icon" href="static/imagenes/Icon.png"/>
+<meta name="description" content="Esta pagina vende articulos para animales varios">
+<link rel="stylesheet" type="text/css" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/menu.css' %}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="menu_bar">
+            <a href="#" class="bt-menu"><span class="icon-list2"></span>Petshop</a>
+        </div>
+            
+        <nav>
+            <ul>
+                <li><p class="titulo">PetShop</p></li>
+                <li><a href="shop_list.html"><span class="icon-house"></span>Inicio</a></li>
+                <li><a href="registro.html"><span class="icon-suitcase"></span>Registro</a></li>
+                <li><a href="crear_producto/"><span class="icon-rocket"></span>Juguetes</a></li>
+                <li><a href="#"><span class="icon-earth"></span>Comida</a></li>
+                <li><a href="contacto.html"><span></span>Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    {% csrf_token %}
+    <h1>¿Estas seguro de querer eliminar el producto {{ producto.id }}</h1>
+    <button type="submit">Eliminar</button>
+    <button><a href="shop_list.html"></a>Cancelar</button>
+<footer>
+
+    <p class="copy">PetShop &copy; 2019</p>
+    
+</footer>
+    <script src="{% static 'js/menu.js' %}"></script>
+</body>
+</html>
